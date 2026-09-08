@@ -1,5 +1,5 @@
 <!-- ANIMATED TYPING HEADER -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=60&lines=AI+Engineer;DevOps+Enthusiast;Bug+Squasher)]
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=900&height=80&lines=AI+Engineer;DevOps+Enthusiast;Bug+Squasher;Open+Source+Creator)]
 
 <!-- VISITOR COUNTER -->
 <p align="center">
@@ -72,11 +72,11 @@
 
 ---
 
-## 🐍 **Contribution Snake** *(static fallback—no GitHub Action needed)*
+## 🐍 **Contribution Snake** *(generated automatically via GitHub Action)*
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/dab00gieman/dab00gieman/main/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
 </p>
-<p align="center"><i>(This is a demo—replace with your own once you set up the GitHub Action)</i></p>
+<p align="center"><i>(auto-generated daily by .github/workflows/snake.yml)</i></p>
 
 ---
 
