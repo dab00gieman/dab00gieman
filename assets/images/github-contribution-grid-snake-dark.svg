@@ -1,4 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="160" viewBox="0 0 720 160">
   <rect width="100%" height="100%" fill="#0a0a0a" />
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#00ff41">Contribution snake (placeholder) — will be replaced when generator runs</text>
+  <g font-family="JetBrains Mono, monospace" fill="#00ff41" font-size="16">
+    <text x="20" y="40">Contribution Snake — demo</text>
+    <text x="20" y="70" font-size="12" fill="#9ef0b8">This is a locally hosted demo snake image.</text>
+    <g transform="translate(20,90)">
+      <rect x="0" y="0" width="560" height="30" fill="#071006" />
+      <circle cx="10" cy="15" r="6" fill="#00ff41" />
+      <circle cx="40" cy="15" r="6" fill="#6ef09c" />
+      <circle cx="70" cy="15" r="6" fill="#00ffa0" />
+      <rect x="100" y="7" width="140" height="16" fill="#002210" />
+    </g>
+  </g>
 </svg>

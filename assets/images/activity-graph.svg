@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
   <rect width="100%" height="100%" fill="#0a0a0a" />
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Fira Code, monospace" font-size="20" fill="#00ff41">Activity graph (placeholder)</text>
+  <g font-family="Fira Code, monospace" fill="#00ff41">
+    <text x="20" y="30" font-size="18">Activity graph (demo)</text>
+    <polyline points="20,150 60,110 120,130 180,90 240,100 300,60 360,80 420,50 480,70 540,40 600,60 660,30 720,50 860,20" fill="none" stroke="#00ff41" stroke-width="3" />
+  </g>
 </svg>

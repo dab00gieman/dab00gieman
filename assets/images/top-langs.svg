@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="180" viewBox="0 0 440 180">
   <rect width="100%" height="100%" fill="#0a0a0a" />
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Fira Code, monospace" font-size="18" fill="#00ff41">Top languages (placeholder)</text>
+  <g font-family="Fira Code, monospace" fill="#00ff41" font-size="16">
+    <text x="20" y="36">Top languages</text>
+    <rect x="20" y="50" width="220" height="14" fill="#1a1a1a" stroke="#00ff41" />
+    <text x="24" y="61" font-size="12" fill="#9ef0b8">Python — 68%</text>
+    <rect x="20" y="76" width="160" height="14" fill="#1a1a1a" stroke="#00ff41" />
+    <text x="24" y="87" font-size="12" fill="#9ef0b8">Shell — 20%</text>
+    <rect x="20" y="102" width="80" height="14" fill="#1a1a1a" stroke="#00ff41" />
+    <text x="24" y="113" font-size="12" fill="#9ef0b8">Other — 12%</text>
+  </g>
 </svg>
