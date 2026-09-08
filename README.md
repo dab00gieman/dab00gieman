@@ -10,7 +10,7 @@
 
 ## 🧠 About me — short & honest
 
-Hey — I’m Divine. I ship production-ready AI, but I attack my own infra like a red teamer to make sure it stays standing. I care about fast inference, clean pipelines, and defensive design.
+Hey — I’m dab00gieman. I ship production-ready AI, but I attack my own infra like a red teamer to make sure it stays standing. I care about fast inference, clean pipelines, and defensive design.
 
 - 🔭 Current focus: building Project Omega — fast vision models + robust API serving.
 - 🌱 Learning: deeper Linux, Kali tooling, and container hardening.
