@@ -1,5 +1,5 @@
 <!-- ANIMATED TYPING HEADER -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=900&height=80&lines=AI+Engine[...]
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&multiline=true&width=980&height=120&lines=Divine%20•%20AI%20Engineer%20%26%20Security%20Researcher;I%20build%20systems%20that%20think%20—and%20resist%20being%20hacked;Code.%20Break.%20Repeat.)]
 
 <!-- VISITOR COUNTER -->
 <p align="center">
@@ -8,38 +8,60 @@
 
 ---
 
-## 🧠 "I turn caffeine into code and bugs into features."
+## 🧠 About me — short & honest
 
-👋 Hi, I'm **Divine**. I build AI that thinks—and I break into my own systems to make sure they're unbreakable.
+Hey — I’m Divine. I ship production-ready AI, but I attack my own infra like a red teamer to make sure it stays standing. I care about fast inference, clean pipelines, and defensive design.
 
-🔭 **Right now:** Deep-diving into AI/ML—teaching machines to see, speak, and predict.  
-🌱 **Currently learning:** Linux & Kali Linux.  
-🍳 **Status:** Cooking up something **massive**... follow along—it's gonna be good.  
-💬 **Talk to me about:** Neural networks, penetration testing, or why Python still owns the AI world.
+- 🔭 Current focus: building Project Omega — fast vision models + robust API serving.
+- 🌱 Learning: deeper Linux, Kali tooling, and container hardening.
+- 🧩 Strengths: ML model design, PyTorch engineering, FastAPI, Docker, and pragmatic security.
 
-🐦 **Find me on X:** [@helper_divine70](https://x.com/helper_divine70)
+Find me on X: [@helper_divine70](https://x.com/helper_divine70)
 
 ---
 
-## 🧰 **Arsenal**
+## ✨ Features (what I build and why it matters)
+
+- End-to-end ML systems: from data collection -> model training -> serving with observability.
+- Production APIs: low-latency FastAPI endpoints, typed contracts, and automated CI/CD.
+- Reproducible environments: Docker-first workflows, reproducible training with pinned deps.
+- Security-first approach: threat modeling, secrets management, container hardening, and automated penetration checks.
+- Small-model optimization: pruning, quantization, and distillation for production constraints.
+
+Why this matters: models are only useful when they’re reliable, fast, and safe. I optimize for those three.
+
+---
+
+## 🧰 Tech stack (with a little style)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
 </p>
 
 ---
 
-## 📊 **GitHub Analytics**
+## 🖋️ Beautiful tech fonts (visual headers)
+
+I like clean monospace headers for a tech-y feel. These images load fast and use developer-friendly fonts — try refreshing the page to see the animation.
+
+- JetBrains Mono (header) — used above for the animated typing banner.
+- Fira Code / Cascadia Code — great for code snippets and inline examples.
+
+(If you want a specific font banner, tell me which font and tagline and I’ll add a custom typing SVG.)
+
+---
+
+## 📈 GitHub analytics
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff" alt="GitHu[...]
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff" alt="Top languages[...]
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff" alt="GitHub stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff" alt="Top languages" />
 </div>
 
 <div align="center">
@@ -48,31 +70,9 @@
 
 ---
 
-## 📈 **Activity Graph**
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true)](https://github.com/dab[...] 
+## 📈 Activity & Contributions
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true)](https://github.com/dab00gieman)
 
----
-
-## 🍳 **Currently Cooking**
-| Project | Status | Tech Stack |
-|---------|--------|------------|
-| **Project Omega** | 🔥 60% done | PyTorch, FastAPI, Docker |
-| **Kali Auto-Suite** | ⚙️ Planning | Bash, Python, Metasploit |
-| **Secret Sauce** | 🤫 Classified | ...wait for it |
-
----
-
-## 🎵 **What I'm Vibing To**
-<p align="center">
-  <a href="https://open.spotify.com/user/31rkrlgou7sjy5jsa3iaswow2tne?si=wb0km7GQTIqIk0k7cxw-zQ&utm_source=copy-link">
-    <img src="https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
-  </a>
-</p>
-<p align="center"><i>Currently looping: AI beats & 90s hip-hop</i></p>
-
-—--
-
-## 🐍 **Contribution Snake** *(generated automatically via GitHub Action)*
 <p align="center">
   <img src="https://raw.githubusercontent.com/dab00gieman/dab00gieman/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
 </p>
@@ -80,23 +80,27 @@
 
 ---
 
-## 🎲 **Random Dev Joke**
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=monokai)
+## 🍳 Projects (current)
+
+| Project | Status | Description |
+|---|---:|---|
+| Project Omega | 🔥 60% | Fast vision models (PyTorch) + FastAPI serving + observability
+| Kali Auto-Suite | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python)
+| Secret Sauce | 🤫 Classified | Experimental research — stay tuned
 
 ---
 
-## 📬 **Let's Connect**
-<p align="center">
-  <a href="https://x.com/helper_divine70">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="mailto:michaeloogwu58@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/michael-oogwu-959544425?utm_source=share_via&utm_content=profile&utm_medium=member_ios">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+## ✅ How to contribute
+
+- Open an issue describing the feature or bug.
+- Fork, branch from main, add tests and a clear PR description.
+- I review PRs focused on reliability, tests, and clear design choices.
+
+---
+
+## 📬 Contact & authenticity
+
+I keep my work public and reproducible. If you find a critical issue, open an issue and tag me on X: [@helper_divine70](https://x.com/helper_divine70) or email: michaeloogwu58@gmail.com
 
 ---
 
