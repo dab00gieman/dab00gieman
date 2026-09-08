@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="180" viewBox="0 0 680 180">
-  <rect width="100%" height="100%" fill="#0a0a0a" />
-  <g font-family="JetBrains Mono, Fira Code, monospace" fill="#00ff41" font-size="18">
-    <text x="20" y="40">GitHub Stats — live demo</text>
-    <text x="20" y="72" font-size="14" fill="#9ef0b8">Total commits: • • •</text>
-    <text x="20" y="98" font-size="14" fill="#9ef0b8">Followers: • • •</text>
-    <text x="20" y="124" font-size="12" fill="#6ef09c">(Replace with live stats by running the readme-stats service)</text>
-  </g>
-</svg>

@@ -1,38 +1,27 @@
-<!-- ANIMATED TYPING HEADER -->
-<img src="assets/images/banner.svg" alt="banner" />
+<div align="center">
 
-<!-- VISITOR COUNTER -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dab00gieman&color=00ff41&style=flat-square&label=Hackers+Visited" alt="visitors" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+dab00gieman;ML+Engineer+%7C+Backend+%2B+MLOps;I+build+it%2C+then+try+to+break+it." alt="Typing SVG" />
 
----
+[![Profile views](https://komarev.com/ghpvc/?username=dab00gieman&color=00ff41&style=flat-square&label=Views)](https://github.com/dab00gieman)
+[![Snake status](https://img.shields.io/github/actions/workflow/status/dab00gieman/dab00gieman/snake.yml?label=snake%20animation&style=flat-square&color=00ff41)](https://github.com/dab00gieman/dab00gieman/actions/workflows/snake.yml)
+[![X](https://img.shields.io/badge/X-@helper__divine70-000000?style=flat-square&logo=x)](https://x.com/helper_divine70)
 
-## 🧠 About me — short & honest
-
-Hey — I’m dab00gieman. I ship production-ready AI, but I attack my own infra like a red teamer to make sure it stays standing. I care about fast inference, clean pipelines, and defensive design.
-
-- 🔭 Current focus: building Project Omega — fast vision models + robust API serving.
-- 🌱 Learning: deeper Linux, Kali tooling, and container hardening.
-- 🧩 Strengths: ML model design, PyTorch engineering, FastAPI, Docker, and pragmatic security.
-
-Find me on X: [@helper_divine70](https://x.com/helper_divine70)
+</div>
 
 ---
 
-## ✨ Features (what I build and why it matters)
+## About me
 
-- End-to-end ML systems: from data collection -> model training -> serving with observability.
-- Production APIs: low-latency FastAPI endpoints, typed contracts, and automated CI/CD.
-- Reproducible environments: Docker-first workflows, reproducible training with pinned deps.
-- Security-first approach: threat modeling, secrets management, container hardening, and automated penetration checks.
-- Small-model optimization: pruning, quantization, and distillation for production constraints.
+I'm a machine learning engineer focused on shipping models that actually survive production: fast inference, clean data pipelines, and infrastructure that's been stress-tested rather than just deployed and hoped for.
 
-Why this matters: models are only useful when they’re reliable, fast, and safe. I optimize for those three.
+- 🔭 **Currently building:** Project Omega — lightweight vision models with FastAPI serving and full observability
+- 🌱 **Currently deepening:** Linux internals, container hardening, and offensive-security tooling (so I can find the holes before someone else does)
+- 🧩 **Core stack:** PyTorch, FastAPI, Docker, Kubernetes, Linux
+- 💬 **Ask me about:** model serving, ML infra, or reproducible training pipelines
 
 ---
 
-## 🧰 Tech stack (with a little style)
+## Tech stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -40,6 +29,8 @@ Why this matters: models are only useful when they’re reliable, fast, and safe
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -47,62 +38,56 @@ Why this matters: models are only useful when they’re reliable, fast, and safe
 
 ---
 
-## 🖋️ Beautiful tech fonts (visual headers)
+## GitHub analytics
 
-I like clean monospace headers for a tech-y feel. These images load fast and use developer-friendly fonts — try refreshing the page to see the animation.
-
-- JetBrains Mono (header) — used above for the animated typing banner.
-- Fira Code / Cascadia Code — great for code snippets and inline examples.
-
-(If you want a specific font banner, tell me which font and tagline and I’ll add a custom typing SVG.)
-
----
-
-## 📈 GitHub analytics
 <div align="center">
-  <img height="180em" src="assets/images/github-stats.svg" alt="GitHub stats" />
-  <img height="180em" src="assets/images/top-langs.svg" alt="Top languages" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=github_dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9" alt="GitHub stats" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=github_dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&text_color=c9d1d9" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="assets/images/streak.svg" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dab00gieman&theme=github-dark-blue&hide_border=true&background=0a0a0a&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" alt="GitHub streak" />
 </div>
 
----
-
-## 📈 Activity & Contributions
-<img src="assets/images/activity-graph.svg" alt="activity graph" />
-
-<p align="center">
-  <img src="assets/images/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
-</p>
-<p align="center"><i>(auto-generated daily by .github/workflows/snake.yml — placeholder until generator runs)</i></p>
+> Stats are rendered live by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) — no local generation or workflow needed, so they're always current.
 
 ---
 
-## 🍳 Projects (current)
+## Contribution activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/images/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/images/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="assets/images/github-contribution-grid-snake.svg" />
+</picture>
+
+<p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>, which commits the refreshed SVGs straight back to this branch.</i></p>
+
+---
+
+## Projects
 
 | Project | Status | Description |
-|---|---:|---|
-| Project Omega | 🔥 60% | Fast vision models (PyTorch) + FastAPI serving + observability
-| Kali Auto-Suite | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python)
-| Secret Sauce | 🤫 Classified | Experimental research — stay tuned
+|---|---|---|
+| **Project Omega** | 🔥 In progress (~60%) | Fast vision models (PyTorch) + FastAPI serving + observability |
+| **Kali Auto-Suite** | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python) |
+| **infra-hardening-checks** | 🧪 Early stage | Automated container/config hardening checks for CI pipelines |
 
 ---
 
-## ✅ How to contribute
+## Contributing
 
-- Open an issue describing the feature or bug.
-- Fork, branch from main, add tests and a clear PR description.
-- I review PRs focused on reliability, tests, and clear design choices.
-
----
-
-## 📬 Contact & authenticity
-
-I keep my work public and reproducible. If you find a critical issue, open an issue and tag me on X: [@helper_divine70](https://x.com/helper_divine70) or email: michaeloogwu58@gmail.com
+- Open an issue describing the bug or feature before sending a PR.
+- Fork, branch off `main`, and include tests with any behavioral change.
+- PRs are reviewed for reliability, test coverage, and clarity of design — not just "does it run."
 
 ---
+
+## Contact
+
+- X: [@helper_divine70](https://x.com/helper_divine70)
+- Email: michaeloogwu58@gmail.com
+- Found a real issue in one of my repos? Open an issue there directly — it's faster than DMs.
 
 <p align="center">
   <img src="assets/images/capsule-footer.svg" alt="footer" />
