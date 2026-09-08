@@ -64,12 +64,8 @@
 
 ## 🎵 **What I'm Vibing To**
 <p align="center">
-  <!-- Replace the href values with your actual profile URLs -->
   <a href="https://open.spotify.com/user/31rkrlgou7sjy5jsa3iaswow2tne?si=wb0km7GQTIqIk0k7cxw-zQ&utm_source=copy-link">
     <img src="https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Listen_on_Apple_Music-FA243C?style=for-the-badge&logo=apple-music&logoColor=white" alt="Apple Music" />
   </a>
 </p>
 <p align="center"><i>Currently looping: AI beats & 90s hip-hop</i></p>
@@ -94,10 +90,10 @@
   <a href="https://x.com/helper_divine70">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:michaeloogwu58@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="https://www.linkedin.com/in/michael-oogwu-959544425?utm_source=share_via&utm_content=profile&utm_medium=member_ios">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
