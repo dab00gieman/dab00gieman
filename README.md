@@ -1,5 +1,5 @@
 <!-- ANIMATED TYPING HEADER -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=900&height=80&lines=AI+Engineer;DevOps+Enthusiast;Bug+Squasher;Open+Source+Creator)]
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=900&height=80&lines=AI+Engine[...]
 
 <!-- VISITOR COUNTER -->
 <p align="center">
@@ -38,8 +38,8 @@
 
 ## 📊 **GitHub Analytics**
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff" alt="GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff" alt="Top languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff" alt="GitHu[...]
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff" alt="Top languages[...]
 </div>
 
 <div align="center">
@@ -49,7 +49,7 @@
 ---
 
 ## 📈 **Activity Graph**
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true)](https://github.com/dab00gieman)
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true)](https://github.com/dab[...] 
 
 ---
 
@@ -74,7 +74,7 @@
 
 ## 🐍 **Contribution Snake** *(generated automatically via GitHub Action)*
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dab00gieman/dab00gieman/main/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
+  <img src="https://raw.githubusercontent.com/dab00gieman/dab00gieman/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
 </p>
 <p align="center"><i>(auto-generated daily by .github/workflows/snake.yml)</i></p>
 
