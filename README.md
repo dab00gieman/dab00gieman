@@ -1,6 +1,6 @@
 **"I turn caffeine into code and bugs into features."**
 
-👋 Hi, I'm Divine. I build AI that thinks—and occasionally break into my own systems just to make sure they're unbreakable.
+👋 Hi, I'm dab00gieman. I build AI that thinks—and occasionally break into my own systems just to make sure they're unbreakable.
 
 🔭 Right now, I'm deep-diving into AI/ML—teaching machines to see, speak, and predict.
 🌱 Currently learning: Linux & Kali Linux (because if you can't hack it, you can't secure it).
