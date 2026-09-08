@@ -1,5 +1,5 @@
 <!-- ANIMATED TYPING HEADER -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&multiline=true&width=980&height=120&lines=Divine%20•%20AI%20Engineer%20%26%20Security%20Researcher;I%20build%20systems%20that%20think%20—and%20resist%20being%20hacked;Code.%20Break.%20Repeat.)]
+<img src="assets/images/banner.svg" alt="banner" />
 
 <!-- VISITOR COUNTER -->
 <p align="center">
@@ -60,23 +60,23 @@ I like clean monospace headers for a tech-y feel. These images load fast and use
 
 ## 📈 GitHub analytics
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff" alt="GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff" alt="Top languages" />
+  <img height="180em" src="assets/images/github-stats.svg" alt="GitHub stats" />
+  <img height="180em" src="assets/images/top-langs.svg" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=dab00gieman&theme=dark&background=0a0a0a&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&hide_border=true" alt="GitHub Streak" />
+  <img src="assets/images/streak.svg" alt="GitHub Streak" />
 </div>
 
 ---
 
 ## 📈 Activity & Contributions
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true)](https://github.com/dab00gieman)
+<img src="assets/images/activity-graph.svg" alt="activity graph" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dab00gieman/dab00gieman/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
+  <img src="assets/images/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake" />
 </p>
-<p align="center"><i>(auto-generated daily by .github/workflows/snake.yml)</i></p>
+<p align="center"><i>(auto-generated daily by .github/workflows/snake.yml — placeholder until generator runs)</i></p>
 
 ---
 
@@ -105,5 +105,5 @@ I keep my work public and reproducible. If you find a critical issue, open an is
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:00ff41&height=120&section=footer" alt="footer" />
+  <img src="assets/images/capsule-footer.svg" alt="footer" />
 </p>
