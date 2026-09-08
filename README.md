@@ -3,7 +3,7 @@
 
 <!-- VISITOR COUNTER -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=[YourUsername]&color=00ff41&style=flat-square&label=Hackers+Visited" alt="visitors" />
+  <img src="https://komarev.com/ghpvc/?username=dab00gieman&color=00ff41&style=flat-square&label=Hackers+Visited" />
 </p>
 
 ---
@@ -22,7 +22,6 @@
 ---
 
 ## 🧰 **Arsenal**
-<!-- BADGE WALL -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
@@ -38,26 +37,23 @@
 ---
 
 ## 📊 **GitHub Analytics**
-<!-- STATS + STREAK -->
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=[YourUsername]&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff&border_color=00ff41&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YourUsername]&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff&border_color=00ff41&hide_border=true&langs_count=8" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dab00gieman&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=ffffff&border_color=00ff41&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dab00gieman&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00ff41&text_color=ffffff&border_color=00ff41&hide_border=true&langs_count=8" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=[YourUsername]&theme=dark&background=0a0a0a&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=dab00gieman&theme=dark&background=0a0a0a&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
 
 ## 📈 **Activity Graph**
-<!-- SHOWS YOUR COMMIT HISTORY VISUALLY -->
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=[YourUsername]&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&bg_color=0a0a0a&color=00ff41&line=00ff41&point=00ff41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
 ## 🍳 **Currently Cooking**
-<!-- TEASER PROJECTS -->
 | Project | Status | Tech Stack |
 |---------|--------|------------|
 | **Project Omega** | 🔥 60% done | PyTorch, FastAPI, Docker |
@@ -66,20 +62,28 @@
 
 ---
 
-## 🎧 **Now Playing**
-<!-- SPOTIFY WIDGET - Replace SPOTIFY_ID with your actual ID or remove this section -->
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0a0a0a&border_color=00ff41)](https://open.spotify.com/user/SPOTIFY_ID)
+## 🎵 **What I'm Vibing To**
+<p align="center">
+  <a href="https://open.spotify.com/user/your-spotify-id">
+    <img src="https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
+  </a>
+  <a href="https://music.apple.com/profile/your-apple-id">
+    <img src="https://img.shields.io/badge/Listen_on_Apple_Music-FA243C?style=for-the-badge&logo=apple-music&logoColor=white" />
+  </a>
+</p>
+<p align="center"><i>Currently looping: AI beats & 90s hip-hop</i></p>
 
 ---
 
-## 🐍 **Contribution Snake**
-<!-- SNAKE ANIMATION - Requires GitHub Action setup (see note below) -->
-![snake gif](https://github.com/[YourUsername]/[YourUsername]/blob/output/github-contribution-grid-snake-dark.svg)
+## 🐍 **Contribution Snake** *(static fallback—no GitHub Action needed)*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+<p align="center"><i>(This is a demo—replace with your own once you set up the GitHub Action)</i></p>
 
 ---
 
 ## 🎲 **Random Dev Joke**
-<!-- FRESH JOKE EVERY LOAD -->
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=monokai&hideBorder&q=10&a=10)
 
 ---
