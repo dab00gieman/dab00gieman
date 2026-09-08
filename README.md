@@ -1,16 +1,16 @@
-## Hi there 👋
+**"I turn caffeine into code and bugs into features."**
 
-<!--
-**dab00gieman/dab00gieman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👋 Hi, I'm Divine. I build AI that thinks—and occasionally break into my own systems just to make sure they're unbreakable.
 
-Here are some ideas to get you started:
+🔭 Right now, I'm deep-diving into AI/ML—teaching machines to see, speak, and predict.
+🌱 Currently learning: Linux & Kali Linux (because if you can't hack it, you can't secure it).
+🍳 Currently cooking up something... (follow along—it's gonna be good).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💬 Talk to me about: neural networks, penetration testing, or why Python still owns the AI world.
+
+🐦 Find me on X: [@helper_divine70](https://x.com/helper_divine70)
+
+<!-- Badges -->
+![](https://img.shields.io/badge/AI-TensorFlow-orange?style=flat&logo=tensorflow)
+![](https://img.shields.io/badge/ML-PyTorch-red?style=flat&logo=pytorch)
+![](https://img.shields.io/badge/OS-Kali_Linux-blue?style=flat&logo=kalilinux)
