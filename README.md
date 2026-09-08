@@ -65,7 +65,7 @@
 ## 🎵 **What I'm Vibing To**
 <p align="center">
   <!-- Replace the href values with your actual profile URLs -->
-  <a href="#">
+  <a href="https://open.spotify.com/user/31rkrlgou7sjy5jsa3iaswow2tne?si=wb0km7GQTIqIk0k7cxw-zQ&utm_source=copy-link">
     <img src="https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
   </a>
   <a href="#">
