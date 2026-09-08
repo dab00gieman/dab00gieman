@@ -4,11 +4,29 @@
 
 [![Profile views](https://komarev.com/ghpvc/?username=dab00gieman&color=00ff41&style=flat-square&label=Views)](https://github.com/dab00gieman)
 [![Snake status](https://img.shields.io/github/actions/workflow/status/dab00gieman/dab00gieman/snake.yml?label=snake%20animation&style=flat-square&color=00ff41)](https://github.com/dab00gieman/dab00gieman/actions/workflows/snake.yml)
+[![Metrics status](https://img.shields.io/github/actions/workflow/status/dab00gieman/dab00gieman/metrics.yml?label=contribution%20city&style=flat-square&color=00ff41)](https://github.com/dab00gieman/dab00gieman/actions/workflows/metrics.yml)
 [![X](https://img.shields.io/badge/X-@helper__divine70-000000?style=flat-square&logo=x)](https://x.com/helper_divine70)
 
 </div>
 
 ---
+
+```bash
+$ whoami
+dab00gieman — ML engineer
+
+$ cat interests.txt
+fast inference · clean pipelines · breaking my own infra on purpose
+
+$ ./status.sh --check
+[OK]  models serving
+[OK]  pipelines green
+[OK]  contribution city rebuilt daily via Actions
+[..]  coffee: low
+
+$ echo $CURRENTLY_BUILDING
+Project Omega — vision models + FastAPI serving + observability
+```
 
 ## About me
 
@@ -51,6 +69,10 @@ I'm a machine learning engineer focused on shipping models that actually survive
 
 > Stats are rendered live by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) — no local generation or workflow needed, so they're always current.
 
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dab00gieman&theme=react-dark&hide_border=true&bg_color=0a0a0a&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff41" alt="Activity graph" width="100%" />
+</div>
+
 ---
 
 ## Contribution activity
@@ -62,6 +84,22 @@ I'm a machine learning engineer focused on shipping models that actually survive
 </picture>
 
 <p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>, which commits the refreshed SVGs straight back to this branch.</i></p>
+
+### Contribution city (isometric)
+
+<div align="center">
+  <img src="assets/images/metrics.svg" alt="Isometric contribution city and habit stats" width="100%" />
+</div>
+
+<p><i>3D isometric build of my commit calendar, plus language/habit breakdowns — generated daily by <a href=".github/workflows/metrics.yml">.github/workflows/metrics.yml</a> using <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> and committed straight back to this branch, same pattern as the snake.</i></p>
+
+---
+
+## Trophy case
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dab00gieman&theme=matrix&no-frame=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
+</div>
 
 ---
 
