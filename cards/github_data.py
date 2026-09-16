@@ -39,6 +39,7 @@ query($login: String!) {
         stargazerCount
         pushedAt
         isArchived
+        isPrivate
         diskUsage
         defaultBranchRef { target { ... on Commit { history { totalCount } } } }
       }
@@ -67,6 +68,7 @@ def _normalize(raw, login):
             "commits": (((r.get("defaultBranchRef") or {}).get("target") or {})
                         .get("history", {}).get("totalCount")) or 0,
             "archived": r["isArchived"],
+            "private": r["isPrivate"],
         })
     return {
         "login": login,
@@ -111,6 +113,7 @@ def load_fixture(path):
             "commits": (((r.get("defaultBranchRef") or {}).get("target") or {})
                         .get("history", {}).get("totalCount")) or 0,
             "archived": r["isArchived"],
+            "private": r["isPrivate"],
         })
     return {
         "login": "dab00gieman",

@@ -30,6 +30,7 @@ class CardsTest(unittest.TestCase):
         for r in self.data["repos"]:
             self.assertIn("commits", r)
             self.assertGreaterEqual(r["commits"], 0)
+            self.assertIn("private", r)
 
     def test_city(self):
         from . import card_city
@@ -39,8 +40,15 @@ class CardsTest(unittest.TestCase):
         self.assertIn("population:", svg)
         self.assertIn("blinks", svg) if False else None
         self.assertIn("repeatCount=\"indefinite\"", svg)   # beacon blinks
-        repos = sorted(self.data["repos"], key=card_city._score, reverse=True)
-        self.assertIn(repos[0]["name"][:8], svg.replace("…", ""))
+        pub = [r for r in self.data["repos"] if not r["private"]]
+        ranked = sorted(pub, key=card_city._score, reverse=True)
+        self.assertIn("1. " + ranked[0]["name"][:8], svg)  # public ranks only
+        # private repos: dark towers, names only, no stats
+        priv = [r for r in self.data["repos"] if r["private"]]
+        self.assertGreater(len(priv), 0)
+        self.assertIn(priv[0]["name"], svg)
+        self.assertNotIn(priv[0]["name"] + " — ", svg)
+        self.assertIn("dark towers (private, names only)", svg)
 
     def test_training(self):
         svg = self._render(card_training, "train_contributor.py",
