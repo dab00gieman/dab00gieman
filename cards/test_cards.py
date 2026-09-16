@@ -81,3 +81,33 @@ class SnakeGradientTest(unittest.TestCase):
     def test_midpoint_interpolates(self):
         from . import snake_gradient as sg
         self.assertEqual(sg.journey_color(0.5, "dark"), "#00e2a0")
+
+
+class UbuntuTerminalTest(unittest.TestCase):
+    def test_renders_yaru_window(self):
+        from . import card_ubuntu
+        svg = card_ubuntu.render()
+        ET.fromstring(svg)
+        self.assertIn("whoami", svg)
+        self.assertIn("dab00gieman@github: ~", svg)   # GNOME titlebar
+        self.assertIn("#300A24", svg)                  # Ubuntu aubergine bg
+        self.assertIn("coffee: low", svg)
+        self.assertIn("<animate", svg)                  # blinking cursor
+
+    def test_gnome_window_controls(self):
+        from . import card_ubuntu
+        svg = card_ubuntu.render()
+        self.assertIn("#E95420", svg)   # orange close button, right side
+
+
+class SnakeBodyJourneyTest(unittest.TestCase):
+    def test_body_shifts_blue_to_green(self):
+        from . import snake_gradient as sg
+        svg = ('<style>:root{--cb:#1b1f230a;--cs:purple;--ce:#ebedf0}'
+               '.s{fill:var(--cs);animation:none linear 16700ms infinite}'
+               '</style>')
+        out = sg.paint(svg, "light")
+        self.assertIn("--cs:#26ae4a", out)          # purple normalised away
+        self.assertIn("@property --cs", out)        # registered -> interpolates
+        self.assertIn("@keyframes eat{0%{--cs:#0969da}", out)   # starts blue
+        self.assertIn(":root{animation:eat 16700ms linear infinite}", out)

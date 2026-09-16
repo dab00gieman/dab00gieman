@@ -8,13 +8,15 @@ Prints each file written so the workflow log reads as a record.
 import argparse
 import os
 
-from . import card_portscan, card_registry, card_scope, card_training, github_data
+from . import (card_portscan, card_registry, card_scope, card_training,
+                card_ubuntu, github_data)
 
 CARDS = {
     "training.svg": card_training.render,
     "portscan.svg": card_portscan.render,
     "registry.svg": card_registry.render,
     "scope.svg": card_scope.render,
+    "ubuntu.svg": card_ubuntu.render,
 }
 
 

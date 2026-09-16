@@ -4,29 +4,15 @@
 
 [![Profile views](https://komarev.com/ghpvc/?username=dab00gieman&color=00ff41&style=flat-square&label=Views)](https://github.com/dab00gieman)
 [![Snake status](https://img.shields.io/github/actions/workflow/status/dab00gieman/dab00gieman/snake.yml?label=snake%20animation&style=flat-square&color=00ff41)](https://github.com/dab00gieman/dab00gieman/actions/workflows/snake.yml)
-[![Metrics status](https://img.shields.io/github/actions/workflow/status/dab00gieman/dab00gieman/metrics.yml?label=contribution%20city&style=flat-square&color=00ff41)](https://github.com/dab00gieman/dab00gieman/actions/workflows/metrics.yml)
 [![X](https://img.shields.io/badge/X-@helper__divine70-000000?style=flat-square&logo=x)](https://x.com/helper_divine70)
 
 </div>
 
 ---
 
-```bash
-$ whoami
-dab00gieman — ML engineer
-
-$ cat interests.txt
-fast inference · clean pipelines · breaking my own infra on purpose
-
-$ ./status.sh --check
-[OK]  models serving
-[OK]  pipelines green
-[OK]  contribution city rebuilt daily via Actions
-[..]  coffee: low
-
-$ echo $CURRENTLY_BUILDING
-Project Omega — vision models + FastAPI serving + observability
-```
+<div align="center">
+  <img src="assets/cards/ubuntu.svg" alt="Ubuntu terminal: whoami" width="100%">
+</div>
 
 ## About me
 
@@ -58,7 +44,7 @@ I'm a machine learning engineer focused on shipping models that actually survive
 
 ## Self-rendered cards
 
-No third-party widget APIs in this section — these four cards are drawn by my own generator (`cards/`), rendered from the live GitHub GraphQL API and committed straight back to this branch daily by [`.github/workflows/cards.yml`](.github/workflows/cards.yml), the same pattern as the snake and the contribution city.
+No third-party widget APIs in this section — these four cards are drawn by my own generator (`cards/`), rendered from the live GitHub GraphQL API and committed straight back to this branch daily by [`.github/workflows/cards.yml`](.github/workflows/cards.yml), the same pattern as the snake.
 
 ### Training log
 
@@ -121,23 +107,9 @@ Every repo is a service on host `github.com/dab00gieman` — open if pushed in t
   <img alt="GitHub contribution snake animation" src="assets/images/github-contribution-grid-snake.svg" />
 </picture>
 
-<p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>, which commits the refreshed SVGs straight back to this branch.</i></p>
-
-### Contribution city (isometric)
-
-<div align="center">
-  <img src="assets/images/metrics.svg" alt="Isometric contribution city and habit stats" width="100%" />
-</div>
-
-<p><i>3D isometric build of my commit calendar, plus language/habit breakdowns — generated daily by <a href=".github/workflows/metrics.yml">.github/workflows/metrics.yml</a> using <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> and committed straight back to this branch, same pattern as the snake.</i></p>
+<p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>. The snake starts electric blue and turns terminal green as it eats through the year — keyframe colours interpolated over its run, repainted after every regeneration.</i></p>
 
 ---
-
-## Trophy case
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dab00gieman&theme=matrix&no-frame=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
-</div>
 
 ---
 
@@ -165,6 +137,4 @@ Every repo is a service on host `github.com/dab00gieman` — open if pushed in t
 - Email: michaeloogwu58@gmail.com
 - Found a real issue in one of my repos? Open an issue there directly — it's faster than DMs.
 
-<p align="center">
-  <img src="assets/images/capsule-footer.svg" alt="footer" />
-</p>
+

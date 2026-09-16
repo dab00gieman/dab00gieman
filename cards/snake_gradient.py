@@ -38,21 +38,51 @@ def paint(svg, theme="dark"):
     """
     flashes = [m for m in FLASH.finditer(svg)
                if m.group(2).strip() != "var(--ce)"]
-    if not flashes:
-        return svg
-    ts = [float(f.group(1)) for f in flashes]
-    lo, hi = min(ts), max(ts)
-    if hi - lo < 1e-9:
-        lo, hi = 0.0, 1.0
+    if flashes:
+        ts = [float(f.group(1)) for f in flashes]
+        lo, hi = min(ts), max(ts)
+        if hi - lo < 1e-9:
+            lo, hi = 0.0, 1.0
 
-    def repl(mo):
-        if mo.group(2).strip() == "var(--ce)":
-            return mo.group(0)            # turn-off keyframe: leave it
-        t = float(mo.group(1))
-        frac = (t - lo) / (hi - lo)
-        return "{}%{{fill:{}}}".format(mo.group(1), journey_color(frac, theme))
+        def repl(mo):
+            if mo.group(2).strip() == "var(--ce)":
+                return mo.group(0)        # turn-off keyframe: leave it
+            t = float(mo.group(1))
+            frac = (t - lo) / (hi - lo)
+            return "{}%{{fill:{}}}".format(mo.group(1), journey_color(frac, theme))
 
-    return FLASH.sub(repl, svg)
+        svg = FLASH.sub(repl, svg)
+    return paint_body(svg, theme)
+
+
+def paint_body(svg, theme="dark"):
+    """Make the snake body itself shift blue -> green over its run.
+
+    The body segments share one fill: the --cs custom property. We register
+    it with @property (so it interpolates), add an `eat` animation on
+    :root that walks the same journey palette as the cell flashes, and
+    normalise the base value so a browser without @property support still
+    shows the end colour instead of snk's defaults.
+    """
+    start, end = PALETTES[theme]
+    # normalise the base body colour (snk default is purple on light)
+    svg = svg.replace("--cs:purple", "--cs:" + _hex(end))
+
+    m = re.search(r"animation:none (?:[\w-]+ )*?(\d+)ms infinite", svg)
+    dur = m.group(1) if m else "16700"
+    body_end = 99.4                       # body segments finish here
+    stops = "".join(
+        "{}%{{--cs:{}}}".format(i, journey_color(min(1.0, i / body_end), theme))
+        for i in range(0, 101, 5))
+
+    # the stops string already ends with "}" closing eat; assemble cleanly
+    inject = (
+        "@property --cs{{syntax:'<color>';inherits:true;initial-value:{}}}"
+        .format(_hex(end)) +
+        "@keyframes eat{{".format() + stops + "}" +
+        ":root{{animation:eat {}ms linear infinite}}".format(dur)
+    )
+    return svg.replace("</style>", inject + "</style>", 1)
 
 
 def main(argv):
