@@ -37,6 +37,9 @@ def render(data):
            svg.bar(10, 10, W - 20, "model registry"),
            svg.text(30, 62, "$ model-registry list --owner "
                             f"github.com/{data['login']}", theme.GREEN, 13),
+           svg.cursor(30 + svg.text_w(
+               "$ model-registry list --owner github.com/" + data["login"],
+               13) + 6, 50),
            svg.text(30, 84, f"{len(repos)} models registered",
                     theme.DIM, 12)]
 

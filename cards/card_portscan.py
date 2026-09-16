@@ -27,12 +27,13 @@ def _state(repo):
 def render(data):
     repos = data["repos"]
     h = TOP + len(repos) * ROW_H + BOTTOM_PAD
+    cmd = f"$ nmap -sV --profile github.com/{data['login']}"
     out = [svg.svg_open(W, h, "Port scan: repositories as nmap services, "
                                "state by last-push recency"),
            svg.panel(10, 10, W - 20, h - 20),
            svg.bar(10, 10, W - 20, "nmap profile-scan"),
-           svg.text(30, 62, f"$ nmap -sV --profile github.com/{data['login']}",
-                    theme.GREEN, 13),
+           svg.text(30, 62, cmd, theme.GREEN, 13),
+           svg.cursor(30 + svg.text_w(cmd, 13) + 6, 50),
            svg.text(30, 84, f"Starting NMAP 7.95 ( github.com/{data['login']} ) "
                             f"at {data['fetched_at'][:10]}",
                     theme.DIM, 12),

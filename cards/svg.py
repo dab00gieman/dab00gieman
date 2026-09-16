@@ -76,3 +76,18 @@ def polyline(points, stroke, width=1.5, opacity=None):
 
 def svg_close():
     return "</svg>\n"
+
+
+def text_w(s, size):
+    """Approx monospace advance width — good enough for cursor placement."""
+    return len(s) * size * 0.6
+
+
+def cursor(x, y, color=None, w=8, h=14):
+    """Blinking terminal cursor. SMIL, because GitHub serves README SVGs
+    via <img> (where CSS animation is unreliable and SMIL is not)."""
+    c = color or theme.GREEN
+    return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{c}">'
+            '<animate attributeName="opacity" values="1;0" keyTimes="0;0.5" '
+            'calcMode="discrete" dur="1.1s" repeatCount="indefinite"/>'
+            '</rect>\n')

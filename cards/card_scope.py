@@ -56,6 +56,16 @@ def render(data):
         out.append(svg.polyline(pts, theme.PHOSPHOR, 6, opacity=0.18))
         out.append(svg.polyline(pts, theme.PHOSPHOR, 1.4))
 
+    # phosphor sweep — a scan line running across the screen
+    for sw, op in ((1.5, 0.55), (6, 0.14)):
+        out.append(
+            f'<line x1="{SX0}" y1="{SY0}" x2="{SX0}" y2="{SY1}" '
+            f'stroke="{theme.PHOSPHOR}" stroke-width="{sw}" opacity="{op}">'
+            f'<animate attributeName="x1" values="{SX0};{SX1}" dur="7s" '
+            f'repeatCount="indefinite"/>'
+            f'<animate attributeName="x2" values="{SX0};{SX1}" dur="7s" '
+            f'repeatCount="indefinite"/></line>\n')
+
     # readouts
     mean = sum(d["count"] for d in days) / max(n, 1)
     out.append(svg.text(SX0 + 12, SY0 + 20, "CH1: CONTRIBUTIONS", theme.GREEN, 11))

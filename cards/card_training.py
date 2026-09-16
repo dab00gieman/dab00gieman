@@ -23,12 +23,13 @@ def render(data):
         y = PLOT_Y0 + (PLOT_Y1 - PLOT_Y0) * (1.0 - loss)
         points.append((x, y))
 
+    cmd = "$ python train_contributor.py --epochs=52 --optimizer=streak"
     out = [svg.svg_open(W, H, "Training log: a year of contributions as a "
                               "converging loss curve"),
            svg.panel(10, 10, W - 20, H - 20),
            svg.bar(10, 10, W - 20, "train_contributor.py"),
-           svg.text(30, 62, "$ python train_contributor.py --epochs=52 --optimizer=streak",
-                    theme.GREEN, 13)]
+           svg.text(30, 62, cmd, theme.GREEN, 13),
+           svg.cursor(30 + svg.text_w(cmd, 13) + 6, 50)]
 
     # gridlines + loss axis
     for frac, label in ((0.0, "1.00"), (0.25, "0.75"), (0.5, "0.50"),
@@ -45,10 +46,21 @@ def render(data):
 
     # loss curve: glow underlay + crisp core
     out.append(svg.polyline(points, theme.GREEN, 6, opacity=0.22))
-    out.append(svg.polyline(points, theme.GREEN, 1.6))
-    # last point marker
+    # the loss curve draws itself in once, then holds (dash offset trick —
+    # 2000px is longer than the path will ever be)
+    pts_s = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
+    out.append(f'<polyline fill="none" stroke="{theme.GREEN}" '
+                f'stroke-width="1.6" points="{pts_s}" stroke-dasharray="2000" '
+                f'stroke-dashoffset="2000"><animate '
+                f'attributeName="stroke-dashoffset" values="2000;0" '
+                f'dur="2.2s" fill="freeze"/></polyline>\n')
+    # last point marker — heartbeates while status is converging
     lx, ly = points[-1]
-    out.append(f'<circle cx="{lx:.1f}" cy="{ly:.1f}" r="3.5" fill="{theme.GREEN}"/>\n')
+    out.append(f'<circle cx="{lx:.1f}" cy="{ly:.1f}" r="3.5" '
+               f'fill="{theme.GREEN}"><animate attributeName="r" '
+               f'values="3.5;6;3.5" dur="2.4s" repeatCount="indefinite"/>'
+               f'<animate attributeName="opacity" values="1;0.35;1" '
+               f'dur="2.4s" repeatCount="indefinite"/></circle>\n')
 
     # right-hand log column
     log_x, log_y = 648, 92
