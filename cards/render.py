@@ -1,4 +1,4 @@
-"""Render all four cards into assets/cards/.
+"""Render all five cards into assets/cards/.
 
     python -m cards.render --fixture testdata/profile.json   # offline
     python -m cards.render --login dab00gieman               # live (needs GITHUB_TOKEN)
@@ -8,8 +8,8 @@ Prints each file written so the workflow log reads as a record.
 import argparse
 import os
 
-from . import (card_portscan, card_registry, card_scope, card_training,
-                card_ubuntu, github_data)
+from . import (card_city, card_portscan, card_registry, card_scope,
+                card_training, card_ubuntu, github_data)
 
 CARDS = {
     "training.svg": card_training.render,
@@ -17,6 +17,7 @@ CARDS = {
     "registry.svg": card_registry.render,
     "scope.svg": card_scope.render,
     "ubuntu.svg": card_ubuntu.render,
+    "city.svg": card_city.render,
 }
 
 
