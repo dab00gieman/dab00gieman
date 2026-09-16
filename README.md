@@ -56,6 +56,30 @@ I'm a machine learning engineer focused on shipping models that actually survive
 
 ---
 
+## Self-rendered cards
+
+No third-party widget APIs in this section — these four cards are drawn by my own generator (`cards/`), rendered from the live GitHub GraphQL API and committed straight back to this branch daily by [`.github/workflows/cards.yml`](.github/workflows/cards.yml), the same pattern as the snake and the contribution city.
+
+### Training log
+
+<div align="center">
+  <img src="assets/cards/training.svg" alt="Training log: a year of contributions as a converging loss curve" width="49%">
+  <img src="assets/cards/scope.svg" alt="Oscilloscope: daily contributions as a phosphor waveform" width="49%">
+</div>
+
+The contribution year as a training run: loss is the share of the year's work still owed, and it converges only when I ship. The scope on the right samples one day at a time — idle days hold the beam on the baseline.
+
+### Recon
+
+<div align="center">
+  <img src="assets/cards/portscan.svg" alt="Port scan: repositories as nmap services, state by last-push recency" width="49%">
+  <img src="assets/cards/registry.svg" alt="Model registry: repositories as deployed models" width="49%">
+</div>
+
+Every repo is a service on host `github.com/dab00gieman` — open if pushed in the last 30 days, filtered within 90, closed beyond that. The registry frames them as models: version = stars, params = disk footprint, train loss = days since the last deploy.
+
+---
+
 ## GitHub analytics
 
 <div align="center">
