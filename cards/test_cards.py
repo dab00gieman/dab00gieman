@@ -111,3 +111,7 @@ class SnakeBodyJourneyTest(unittest.TestCase):
         self.assertIn("@property --cs", out)        # registered -> interpolates
         self.assertIn("@keyframes eat{0%{--cs:#0969da}", out)   # starts blue
         self.assertIn(":root{animation:eat 16700ms linear infinite}", out)
+        self.assertNotIn("syntax:'<color>'", out)                # raw < is invalid
+        self.assertIn("&lt;color&gt;", out)                      # escaped instead
+        ET.fromstring("<svg xmlns=\"http://www.w3.org/2000/svg\">"
+                      + out + "</svg>")                          # must parse

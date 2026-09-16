@@ -76,9 +76,13 @@ def paint_body(svg, theme="dark"):
         for i in range(0, 101, 5))
 
     # the stops string already ends with "}" closing eat; assemble cleanly
+    # NOTE: '<color>' must be XML-escaped inside the SVG's <style> text —
+    # raw angle brackets make the whole document malformed and GitHub
+    # will refuse to render it. Browsers decode the entities back to
+    # plain <color> before handing the style text to the CSS engine.
     inject = (
-        "@property --cs{{syntax:'<color>';inherits:true;initial-value:{}}}"
-        .format(_hex(end)) +
+        "@property --cs{{syntax:'&lt;color&gt;';inherits:true;"
+        "initial-value:{}}}".format(_hex(end)) +
         "@keyframes eat{{".format() + stops + "}" +
         ":root{{animation:eat {}ms linear infinite}}".format(dur)
     )
