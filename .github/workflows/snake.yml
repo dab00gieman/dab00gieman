@@ -10,6 +10,12 @@ on:
 permissions:
   contents: write
 
+# One snake run at a time — back-to-back pushes used to race on the commit
+# step and both runs failed, which flipped the profile badge to "failing".
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 jobs:
   update-snake:
     runs-on: ubuntu-latest
