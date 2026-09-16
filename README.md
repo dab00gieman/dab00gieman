@@ -63,18 +63,32 @@ No third-party widget APIs in this section — these four cards are drawn by my 
 ### Training log
 
 <div align="center">
-  <img src="assets/cards/training.svg" alt="Training log: a year of contributions as a converging loss curve" width="49%">
-  <img src="assets/cards/scope.svg" alt="Oscilloscope: daily contributions as a phosphor waveform" width="49%">
+  <img src="assets/cards/training.svg" alt="Training log: a year of contributions as a converging loss curve" width="100%">
 </div>
+
+_Loss is the share of the year's contributions still owed at each week of the run — the curve converges only when I ship. The marker heartbeats while status reads "converging"._
+
+<div align="center">
+  <img src="assets/cards/scope.svg" alt="Oscilloscope: daily contributions as a phosphor waveform" width="100%">
+</div>
+
+_One sample per day; idle days hold the beam on the baseline. The sweep line scans every seven seconds._
 
 The contribution year as a training run: loss is the share of the year's work still owed, and it converges only when I ship. The scope on the right samples one day at a time — idle days hold the beam on the baseline.
 
 ### Recon
 
 <div align="center">
-  <img src="assets/cards/portscan.svg" alt="Port scan: repositories as nmap services, state by last-push recency" width="49%">
-  <img src="assets/cards/registry.svg" alt="Model registry: repositories as deployed models" width="49%">
+  <img src="assets/cards/portscan.svg" alt="Port scan: repositories as nmap services, state by last-push recency" width="100%">
 </div>
+
+_Every repo is a service on host `github.com/dab00gieman` — open if pushed in the last 30 days, filtered within 90, closed beyond that. Ports are stable hashes of the repo name._
+
+<div align="center">
+  <img src="assets/cards/registry.svg" alt="Model registry: repositories as deployed models" width="100%">
+</div>
+
+_Repos as models in a registry: version = stars, params = disk footprint, train loss = days since the last deploy. Loss drifts up while a repo sits idle._
 
 Every repo is a service on host `github.com/dab00gieman` — open if pushed in the last 30 days, filtered within 90, closed beyond that. The registry frames them as models: version = stars, params = disk footprint, train loss = days since the last deploy.
 

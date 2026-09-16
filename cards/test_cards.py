@@ -58,3 +58,26 @@ class CardsTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SnakeGradientTest(unittest.TestCase):
+    """The snake must start blue and reach green by the end of its run."""
+
+    STYLE = (
+        "<style>:root{--ce:#ebedf0}"
+        "@keyframes c0{25.0%{fill:var(--c1)}25.1%,100%{fill:var(--ce)}}"
+        "@keyframes c1{50.0%{fill:var(--c1)}50.1%,100%{fill:var(--ce)}}"
+        "@keyframes c2{75.0%{fill:var(--c2)}75.1%,100%{fill:var(--ce)}}"
+        "</style>"
+    )
+
+    def test_journey_is_blue_to_green(self):
+        from . import snake_gradient as sg
+        out = sg.paint(self.STYLE, "dark")
+        self.assertIn("25.0%{fill:#00c6ff}", out)   # start: electric blue
+        self.assertIn("75.0%{fill:#00ff41}", out)    # end: terminal green
+        self.assertIn("{fill:var(--ce)}", out)       # turn-offs untouched
+
+    def test_midpoint_interpolates(self):
+        from . import snake_gradient as sg
+        self.assertEqual(sg.journey_color(0.5, "dark"), "#00e2a0")
