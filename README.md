@@ -4,7 +4,7 @@
 
 [![Profile views](https://komarev.com/ghpvc/?username=dab00gieman&color=00ff41&style=flat-square&label=Views)](https://github.com/dab00gieman)
 [![Snake status](https://img.shields.io/github/actions/workflow/status/dab00gieman/dab00gieman/snake.yml?label=snake%20animation&style=flat-square&color=00ff41)](https://github.com/dab00gieman/dab00gieman/actions/workflows/snake.yml)
-[![X](https://img.shields.io/badge/X-@helper__divine70-000000?style=flat-square&logo=x)](https://x.com/helper_divine70)
+[![X](https://img.shields.io/badge/X-@mgkvibez-000000?style=flat-square&logo=x)](https://x.com/mgkvibez)
 
 </div>
 
