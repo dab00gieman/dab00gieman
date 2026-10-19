@@ -146,3 +146,9 @@ Every repo is a service on host `github.com/dab00gieman` — open if pushed in t
 - Found a real issue in one of my repos? Open an issue there directly — it's faster than DMs.
 
 
+
+## Currently building
+
+- **[Tinda](https://github.com/mgkvibez/Tinda)** — a Tinder-for-jobs platform: candidates swipe jobs, employers swipe talent, matches open hiring pipelines. Next.js 16 + Firebase, live at [tinda-azure.vercel.app](https://tinda-azure.vercel.app).
+- **[openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards)** — thirteen hand-drawn, self-updating SVG stat cards for any GitHub profile. Rendered from the live GraphQL API; shipped as an OpenClaw skill.
+- **The profile above** — the cards you see here run on a generator I built with my engineering partner and keep extending: [mgkvibez/mgkvibez](https://github.com/mgkvibez/mgkvibez).
