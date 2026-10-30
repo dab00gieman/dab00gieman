@@ -128,6 +128,10 @@ Every repo is a service on host `github.com/dab00gieman` — open if pushed in t
 | **Project Omega** | 🌱 Early stage | Fast vision models (PyTorch) + FastAPI serving + observability |
 | **Kali Auto-Suite** | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python) |
 | **infra-hardening-checks** | 🧪 Early stage | Automated container/config hardening checks for CI pipelines |
+| **[sentinel-skills](https://github.com/mgkvibez/sentinel-skills)** | 🛡️ Shipped | Five defensive security skills for coding agents: threat-model, triage-alert, review-diff-for-vulns, cve-research, harden-service |
+| **[ci-whisper](https://github.com/mgkvibez/ci-whisper)** | 📄 Shipped | Reads a failed CI log and prints the first real error, its causal chain, and a fix ([PyPI](https://pypi.org/project/ci-whisper/)) |
+| **[depdrift](https://github.com/mgkvibez/depdrift)** | 📦 Shipped | Reviews what actually changed between two lockfiles and what is risky about it ([PyPI](https://pypi.org/project/depdrift/)) |
+| **[migsafe](https://github.com/mgkvibez/migsafe)** | 🐘 Shipped | Flags the PostgreSQL migration that would lock your users table before it ships ([PyPI](https://pypi.org/project/migsafe-pg/)) |
 
 ---
 
